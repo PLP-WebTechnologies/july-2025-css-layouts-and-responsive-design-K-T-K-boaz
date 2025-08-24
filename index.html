@@ -1,83 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NewsBest Media</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boaz Khuteka | Media Projects</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header Section -->
-    <header class="header">
-        <div class="logo">NewsBest Media</div>
-        <nav class="navbar">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#news">News</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <!-- Header -->
+  <header>
+    <h1>Boaz Khuteka</h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Nesbest Media</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-        <img src="1736283588573.jpg" alt="Boaz Khuteka Graduation" class="hero-img">
-        <div class="hero-text">
-            <h1>Welcome to NewsBest Media</h1>
-            <p>Delivering stories that matter, crafted with passion and accuracy.</p>
+  <!-- Layout Wrapper with Sidebar -->
+  <div class="layout">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <h3>Contact Info</h3>
+      <p>📞 0721306671</p>
+      <p>📧 <a href="mailto:okhutekaboaz@gmail.com">okhutekaboaz@gmail.com</a></p>
+    </aside>
+
+    <!-- Main Content -->
+    <main>
+      <!-- About Section -->
+      <section id="about" class="about">
+        <div class="about-img">
+          <img src="1736283408696.jpg" alt="Boaz Khuteka Graduation">
         </div>
-    </section>
+        <div class="about-text">
+          <h2>About Me</h2>
+          <p>Hello! I am <strong>Boaz Khuteka</strong>, a passionate media and communication graduate. 
+          I enjoy creating impactful stories through video production, content creation, 
+          and media strategy. My goal is to use media to inspire change and give a voice 
+          to the community.</p>
+        </div>
+      </section>
 
-    <!-- Main Layout using Grid -->
-    <main class="main-layout">
-        <section class="content" id="news">
-            <h2>Latest News</h2>
-            <div class="news-grid">
-                <article class="news-card">
-                    <img src="https://source.unsplash.com/400x250/?news" alt="News Image">
-                    <h3>Headline One</h3>
-                    <p>Brief description of the first news story...</p>
-                </article>
-                <article class="news-card">
-                    <img src="https://source.unsplash.com/400x250/?media" alt="News Image">
-                    <h3>Headline Two</h3>
-                    <p>Brief description of the second news story...</p>
-                </article>
-                <article class="news-card">
-                    <img src="https://source.unsplash.com/400x250/?journalism" alt="News Image">
-                    <h3>Headline Three</h3>
-                    <p>Brief description of the third news story...</p>
-                </article>
-            </div>
-        </section>
+      <!-- Projects Section -->
+      <section id="projects" class="projects">
+        <h2>My Projects - Nesbest Media</h2>
+        <div class="grid-container">
+          <div class="card">
+            <img src="https://via.placeholder.com/300" alt="Project 1">
+            <h3>Graduation Documentary</h3>
+            <p>A Kisii University documentary capturing memories and achievements during graduation.</p>
+          </div>
+          <div class="card">
+            <img src="https://via.placeholder.com/300" alt="Project 2">
+            <h3>Scholar Media Articles</h3>
+            <p>Published articles on education, human interest, and climate change at Scholar Media Africa.</p>
+          </div>
+          <div class="card">
+            <img src="https://via.placeholder.com/300" alt="Project 3">
+            <h3>KSU TV News</h3>
+            <p>Produced and presented news scripts showcasing campus events and national issues.</p>
+          </div>
+        </div>
+      </section>
 
-        <!-- Sidebar -->
-        <aside class="sidebar">
-            <h2>About Me</h2>
-            <img src="1736283588573.jpg" alt="Boaz Khuteka" class="profile-img">
-            <p><strong>Name:</strong> Boaz Khuteka</p>
-            <p><strong>Email:</strong> khutekaboaz@gmail.com</p>
-            <p><strong>Phone:</strong> 0721306671</p>
-            <p>Graduate in Communication and Media. Passionate about storytelling, media, and digital communication.</p>
-        </aside>
+      <!-- Contact Section -->
+      <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>📞 Phone: 0721306671</p>
+        <p>📧 Email: <a href="mailto:okhutekaboaz@gmail.com">okhutekaboaz@gmail.com</a></p>
+      </section>
     </main>
+  </div>
 
-    <!-- Gallery Section -->
-    <section class="gallery" id="gallery">
-        <h2>Gallery</h2>
-        <div class="gallery-grid">
-            <img src="https://source.unsplash.com/300x200/?studio" alt="Gallery 1">
-            <img src="https://source.unsplash.com/300x200/?camera" alt="Gallery 2">
-            <img src="https://source.unsplash.com/300x200/?broadcast" alt="Gallery 3">
-            <img src="https://source.unsplash.com/300x200/?journalist" alt="Gallery 4">
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer" id="contact">
-        <p>&copy; 2025 NewsBest Media | Designed by Boaz Khuteka</p>
-    </footer>
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Boaz Khuteka. All Rights Reserved.</p>
+  </footer>
 </body>
 </html>
